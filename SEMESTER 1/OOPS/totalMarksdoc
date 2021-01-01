@@ -1,0 +1,11 @@
+
+
+1.marksList.append(m1)
+Checking if marks are invalid
+2.i>100 or i<0
+Validating the lists of marks of both subjects
+3.not(validateMarks(marks1) and validateMarks(marks2))
+Traversing the list till numStudents
+4.range(numStudents)
+As rest of the marks are valid so finding there total and appending them to list of total marks
+5.marks1[i]+marks2[i]

@@ -47,8 +47,10 @@ def findPairs(myList,n,m):
     #Traversing the list to find the pairs
     for i in range(n):
         for j in range(i,n):
+            temp=[]
             if myList[i]+myList[j]==m:
-                print("[{},{}]".format(myList[i],myList[j]))
+                temp=[myList[i],myList[j]]
+                print(temp)
 
 #Assigning the main function as the driver function
 if __name__ == "__main__":

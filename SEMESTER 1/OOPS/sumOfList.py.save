@@ -1,0 +1,26 @@
+def main():
+    n=int(input("Enter list size: "))
+    lsit1=[0]*n
+    lsit2=[0]*n
+    list1=fillList(list1)
+    list2=fillList(list2)
+    list3=sunList(list1,list2)
+
+def sumTwoNum(x,y):
+    z=x+y
+    return z
+
+def sunList(list1,list2):
+    #code to sum respective elements of these list
+    #return list
+    return list1+list2
+
+
+
+
+def fillList(listN):
+    for i in range(n):
+        listN[i]=int(input("Enter {}".format(i+1)))
+    return listN
+    
+
