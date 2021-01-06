@@ -9,5 +9,10 @@ if r!=c:
 else:
     print("Input Matrix elements: ")
     mat1 = [[int(input()) for x in range(c)] for y in range(r)]
-    mat = np.trace(mat1)
-    print("Sum of digonal elements is : ",mat)
+    sum1=0
+    for i in range(r):
+        for j in range(c):
+            if(i==j):
+                sum1+=mat1[i][j]
+    
+    print("Sum of digonal elements is : ",sum1)
