@@ -1,0 +1,16 @@
+---Highest marks in each subject---
+Subject: 1
+Roll Number: 1
+Student Name : bhagesh
+Highest Marks: 90
+---------------------
+Subject: 2
+Roll Number: 2
+Student Name : ankit
+Highest Marks: 99
+---------------------
+Subject: 3
+Roll Number: 1
+Student Name : bhagesh
+Highest Marks: 80
+---------------------
