@@ -1,25 +1,11 @@
-def main():
-    print("Main function")
-    a=int(input("Enter first number"))
-    b=int(input("Enter second number"))
-    c=int(input("Enter second number"))    
-    comp3(a,b,c)
+b=[]
+for i in range(5):
+    try:
+        a=(int(input("Enter")))
+        if(a>10):
+            raise Exception("SORRY") 
+        b.append(a)
+    except Exception as e:
+        print(e)
 
-def comp3(a,b,c):
-    if((a==b)&&(b==c)):
-            print("All numbers equal")
-    elif(a>b):
-        if(a>c):
-            print("a is greatest")
-        else:
-            print("c is greatest")
-    elif(b>a):
-        if(b>c):
-            print("b is greatest")
-        else:
-            print("c is greatest")
-    
-
-if(__name__=='__main__'):
-    main()
-    
+print(b)
