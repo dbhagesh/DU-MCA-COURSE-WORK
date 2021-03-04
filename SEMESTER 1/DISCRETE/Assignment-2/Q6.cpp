@@ -1,5 +1,7 @@
 /*
 6. Write a program to identify that the given graph is planar or not.
+
+If graph is connected and e<=3v-6 then the graph is planar
 */
 #include<bits/stdc++.h>
 using namespace std;

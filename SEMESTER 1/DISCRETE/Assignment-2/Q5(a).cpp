@@ -1,5 +1,8 @@
 /*
 5. Write a program to identify the Eulerian and Hamiltonian circuits in a given graph.
+This program contains the eulerian part only.
+
+Checks if the graph is connected and if the graph contains no oddDegree vertexes then it is euler circuit.
 */
 
 
@@ -32,6 +35,31 @@ bool isConnected(){
 
     return true;
 }
+
+void isEulerian(){
+
+    if(!isConnected()){
+        cout<<"Graph is not connected. Therefore it isn't a Eulerian Path/Circuit.";
+        return;
+    }
+
+    int degree[n+1]={0};
+
+    for(int i=1; i<=n; i++){
+        for(auto j: adjList[i])
+            degree[i]++;
+    }
+
+    int oddDegree=0;
+    for(auto i: degree) if(i&1==1) oddDegree++;
+
+
+    if(oddDegree==2) cout<<"Eulerian path";
+    else if(oddDegree==0) cout<<"Eulerian circuit as well as Euler path";
+    else cout<<"Not Eulerian path/Circuit";
+
+}
+
 int main()
 {
     cout<<"Enter number of vertex: ";
@@ -47,8 +75,7 @@ int main()
     addEdge(5,4);
     //addEdge(6,7);
 
-    if(isConnected() && n<=(3*vertex-6)) cout<<"Yes, it is a planar graph.";
-    else cout<<"No, it is not planar graph.";
+    isEulerian();
 
 
 }

@@ -1,5 +1,8 @@
 /*
 4. Write a program to implement the breadth first search(BFS) and depth first search(DFS) in graph.
+
+BFS: Iterative algo which uses queue
+DFS: Dfs recursive algo uses visited array
 */
 
 #include<bits/stdc++.h>

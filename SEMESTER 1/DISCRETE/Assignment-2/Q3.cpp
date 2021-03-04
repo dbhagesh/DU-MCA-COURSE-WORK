@@ -1,3 +1,10 @@
+/*
+3. Write a program to solve the recurrence relation .
+
+Recurence relation T(n)=2T(n/2)+n of merge sort.
+*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 

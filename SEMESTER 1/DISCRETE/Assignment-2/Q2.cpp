@@ -1,5 +1,8 @@
 /*
 2. Write a program to find a Preorder, Inorder and Postorder traversal of 3-ary Tree.
+
+Tree node :
+  left,mid,right
 */
 
 #include<bits/stdc++.h>
