@@ -68,6 +68,8 @@ int main()
     root->right->right = new Node(8);
 
 
+
+
     int ch;
     while(true){
         cout<<"\nEnter\n1.PREORDER\n2.INORDER\n3.POSTORDER\n";

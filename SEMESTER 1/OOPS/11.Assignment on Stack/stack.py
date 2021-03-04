@@ -23,24 +23,27 @@ Instance:
     name-name of the students
     rollno- roll no of the student
     tmarks - total marks of the students
+    per - percentage obtained by student
 
 '''
 class Student:
     #Constructor
-    def __init__(self,name,rollno,tmarks):
+    def __init__(self,name,rollno,tmarks,per):
         #Initialising
         self.name = name
         self.rollno = rollno
         self.tmarks = tmarks
+        self.per = per
+
     #Overriding __str__ to return the student data
     def __str__(self):
-        return "{},{},{}".format(self.name,self.rollno,self.tmarks)
+        return "(NAME: {},ROLLNO: {},TMARKS: {},PER: {} )".format(self.name,self.rollno,self.tmarks,self.per)
 '''
 Class Stack - 
 Methods : 
     push() - push element to the stack top
     pop() - pop the topmost element from the stack
-    front() - peek the topmost element of the stack
+    peek() - peek the topmost element of the stack
     __len__() - overriden len method to find total elements in the stack
 
 Instance variables
@@ -82,12 +85,12 @@ class Stack:
         return pele
 
     '''
-    front()
+    peek()
     To return the topmost element
     Arguments: self
     Returns : topmost element on the stack
     '''
-    def front(self):
+    def peek(self):
         if(len(self.myStack)==0):
             return "Stack Empty, nothing on top"
         return self.myStack[-1]
@@ -108,32 +111,63 @@ Here class object is created and relevent methods are called
 
 '''
 def main():
-    size = int(input("Enter the stack size: "))
-    #Creating object of Stack class 
-    #Passing 'size' of the stack as input to intialise the stack in the class
-    obj= Stack(size)
-    student1 = Student("BHAGESH",1,50)
-    student2 = Student("ANKIT",2,40)
-    #Pushing to the stack
-    print("Pushed ",obj.push(student1))
-    print("Front ele is : ",obj.front())
-    #Popping fron the stack
-    print("Popped: ",obj.pop())
-    print("Popped: ",obj.pop())
-
-    #Again push
-    print("Pushed ",obj.push(student2))
-
-    print("Popped: ",obj.pop())
-
-    #Front()
-    print("Front ele is : ",obj.front())
-
-    #Overriden len() 
-    print("Pushed ",obj.push(student1))
-    print("Pushed ",obj.push(student2))
-    print("Number of Elements in the stack",len(obj))
+    #size of the stack 
+    size=0
+    while(size<=0):
+        print("Enter size greater than 0")
+        size = int(input("Enter the stack size: "))
     
+    #Exception handling
+    try:
+        #Number of subjects
+        subj = int(input("Enter number of subjects: "))
+        #Maximum marks
+        MM = int(input("Enter maximum marks for each subjects: "))
+    
+    
+
+        #Creating object of Stack class 
+        #Passing 'size' of the stack as input to intialise the stack in the class
+        obj= Stack(size)
+
+        #Menu
+        '''
+        1.Insert
+        2.Pop
+        3.peek
+        4.Length
+
+        '''
+        print("---MENU---")
+        print("\n1.Insert\n2.Pop\n3.peek\n4.Length\n")
+        #Menu Driven functionality
+        while(True):
+            #Choice
+            try:
+                ch = int(input("Enter choice: "))
+                if(ch==1):
+                    name = input("Enter name: ")
+                    rollno = int(input("Enter roll no: "))
+                    tmarks = int(input("Enter total marks: "))
+                    per = (tmarks/(subj*MM))*100
+                    student1=Student(name,rollno,tmarks,per)
+                    print("Pushed ",obj.push(student1))
+
+                elif(ch==2):
+                    print("Popped: ",obj.pop())
+                elif(ch==3):
+                    print("peek ele is : ",obj.peek())
+                elif(ch==4):
+                    print("Number of Elements in the stack",len(obj))
+                else:
+                    print("Exiting Program...")
+                    break
+            except:
+                print("Enter a valid input.")
+    except:
+        print("Enter valid value.")
+
+
 #Making main() as driver function 
 if __name__=='__main__':
     main()

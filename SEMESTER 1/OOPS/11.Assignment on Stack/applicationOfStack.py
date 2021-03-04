@@ -160,23 +160,33 @@ Input: Choice for the menu function
 '''
 
 def main():
+    '''
+    MENU:
+    1:Evaluate Postfix 
+    2.Parenthesis checking 
+    3.Conversion of infix to postfix
+    
+    '''
     print("-----------------Menu---------------")
     print("1:Evaluate Postfix \n2.Parenthesis checking \n3.Conversion of infix to postfix\n")
     print("Anything else to terminate from menu.")
     #Loops until exiting condition is encountered
     while(True):
         #Input for menu
-        n = int(input("Enter choice: "))
-        if(n==1):
-            evaluatePostfix()
-        elif(n==2):
-            parenthesisCheck()
-        elif(n==3):
-            conversionInfixtoPostfix()
-        else:
-            #Terminating condition
-            break
-
+        try:
+            n = int(input("Enter choice: "))
+            if(n==1):
+                evaluatePostfix()
+            elif(n==2):
+                parenthesisCheck()
+            elif(n==3):
+                conversionInfixtoPostfix()
+            else:
+                #Terminating condition
+                print("Exiting program...")
+                break
+        except:
+            print("Enter a valid input.")
 #Making main() as the driver function
 if __name__=='__main__':
     main()
