@@ -77,6 +77,7 @@ Main function to input data from user
 and calling the desired functions
 '''
 def main():
+    '''
     #Inputting data from user
     Color=input("Enter color: ")
     Brand=input("Enter brand: ")
@@ -97,7 +98,34 @@ def main():
     #Calling printDetails() member function
     print("Laptop 1 Details are: ",obj.__str__())
     print("Laptop 2 Details are: ",obj1.__str__())
-    
+    '''
+
+    while(True):
+        print("\n\n---MENU---")
+        print("1.Create objects\n2.show method\n3.Compare objects\n4.str method")
+        try:
+            ch=int(input("INPUT: "))
+
+            if ch==1:
+                print("Enter Object1: ")
+                #Inputting data from user
+                Color=input("Enter color: ")
+                Brand=input("Enter brand: ")
+                Processor=input("Enter processor: ")
+                RAM=input("Enter ram: ")
+                #Creating object of the class Laptop
+                obj1 = Laptop(Color,Brand,Processor,RAM)
+            elif ch==2:
+
+            elif ch==3:
+
+            elif ch==4:
+
+            else:
+                print("Exiting program...")
+                break
+        except:
+            print("Enter a valid input.")
 #Making main() as driver function  
 if __name__=='__main__':
     main()

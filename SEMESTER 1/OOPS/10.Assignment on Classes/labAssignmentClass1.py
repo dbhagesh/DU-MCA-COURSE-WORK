@@ -85,12 +85,13 @@ class employee():
     
     #Base salary calculation according to the designation
     def baseSalary(designation):
-        if designation == 'Worker':
+        if designation == 'worker' :
             return 10000
-        if designation == 'Supervisor':
+        if designation == 'supervisor':
             return 15000
-        if designation == 'Manager':
+        if designation == 'manager':
             return 20000
+
     #Calculating additional salary
     def addSalary(base,experience):
         return experience*base/100
@@ -102,10 +103,47 @@ Main function is the driver function
 It creates the object of the class employee 
 '''
 def main():
-    #Creating object of class employee
-    employeeObj = employee('bhagesh',10,'Worker',10)
-    #Calling show() to print attributes of the class
-    employeeObj.show()
+    #Designations
+    designationList=['worker','supervisor','manager']
+    while(True):
+        try:
+            print("\n\n----Menu----")
+            print("1.Create Object\n2.Call show()\n3.Call overriden __str__()\n")
+            ch=int(input("INPUT: "))
+
+            if ch==1:
+                try:
+                    #Creating object of class employee
+                    name = input("Enter name: ")
+                    empID = int(input("Enter empID: "))
+                    designation = (input("Enter designation worker/supervisor/manager: ")).lower()
+                    if designation not in designationList:
+                        raise Exception("Not a valid designation.")
+                    experience = int(input("Enter experience: "))
+                    
+                    employeeObj = employee(name,empID,designation,experience)
+                    print("Object Created.")
+
+                except Exception as e:
+                    print(e)
+                    print("Enter a valid input.")
+
+            elif ch==2:
+                #Calling show() to print attributes of the class
+                l = locals()
+                if 'employeeObj' in l:
+                    employeeObj.show()
+                else: 
+                    print("Object doesn't exist.")
+            elif ch==3:
+                #Overriding __str__
+                l = locals()
+                if 'employeeObj' in l:
+                    print(employeeObj)
+                else: 
+                    print("Object doesn't exist.")
+        except:
+            print("Enter only integer input.")
 
 #Making main() as the driver function
 if __name__ == '__main__':
