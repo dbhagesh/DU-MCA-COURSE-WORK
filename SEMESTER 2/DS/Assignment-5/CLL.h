@@ -127,8 +127,10 @@ T CLL<T>::removeFront(){
 		When only 1 element is present in the list
 		We make the head=0 i.e Empty list condition
 		*/
+		Node<T>* tnode = head;
 		T temp = head->data;
 		head=0;
+		delete tnode;
 		return temp;
 	}
 	else{
@@ -141,8 +143,9 @@ T CLL<T>::removeFront(){
 		T tdata = head->data;
 		head->data = (head->next)->data;
 		head->next=(head->next)->next;
-		delete tnode;
+
 		return tdata;
+
 	}
 
 }
