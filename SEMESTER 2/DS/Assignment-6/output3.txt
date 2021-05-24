@@ -1,0 +1,367 @@
+                        --WELCOME TO THE DICTIONARY--
+
+Please note inputs are generated randomly.
+
+Choose the Hashcode Map and Compression Map for your dictionary.
+Choose a hashcode Map:
+1.Component Sum
+2.Polynomial Accumulation
+3.Universal Hashing
+Note:By default Universal Hashing
+
+Enter: 2
+Choose a compression Map:
+1.Use remainder(h(k)=k mod m)
+2.Fibonacci Hashing
+3.Using Multiply, Add and Divide
+By default last one will be selected
+
+Enter: 2
+
+
+Choose Type of Collision Resolution:
+1.Chaining
+2.Linear Probing
+3.Double Hashing
+Enter: 3
+
+Enter the size of the dictionary: 15
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 1
+
+
+
+Input is taken with the help of random input generator function
+Enter Name: Enter Roll Number: Enter Address: Enter DOB:
+Inserting : 2020PMT05
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 1
+
+
+
+Input is taken with the help of random input generator function
+Enter Name: Enter Roll Number: Enter Address: Enter DOB:
+Inserting : 2018MMT03
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 1
+
+
+
+Input is taken with the help of random input generator function
+Enter Name: Enter Roll Number: Enter Address: Enter DOB:
+Inserting : 2018MMT03
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 1
+
+
+
+Input is taken with the help of random input generator function
+Enter Name: Enter Roll Number: Enter Address: Enter DOB:
+Inserting : 2021PBA04
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 1
+
+
+
+Input is taken with the help of random input generator function
+Enter Name: Enter Roll Number: Enter Address: Enter DOB:
+Inserting : 2016MMT09
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 1
+
+
+
+Input is taken with the help of random input generator function
+Enter Name: Enter Roll Number: Enter Address: Enter DOB:
+Inserting : 2016MCS01
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 1
+
+
+
+Input is taken with the help of random input generator function
+Enter Name: Enter Roll Number: Enter Address: Enter DOB:
+Inserting : 2018MMT09
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 1
+
+
+
+Input is taken with the help of random input generator function
+Enter Name: Enter Roll Number: Enter Address: Enter DOB:
+Inserting : 2019PCS06
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 1
+
+
+
+Input is taken with the help of random input generator function
+Enter Name: Enter Roll Number: Enter Address: Enter DOB:
+Inserting : 2018PCS01
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 1
+
+
+
+Input is taken with the help of random input generator function
+Enter Name: Enter Roll Number: Enter Address: Enter DOB:
+Inserting : 2020PBA09
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 1
+
+
+
+Input is taken with the help of random input generator function
+Enter Name: Enter Roll Number: Enter Address: Enter DOB:
+Inserting : 2021PBA01
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 1
+
+
+
+Input is taken with the help of random input generator function
+Enter Name: Enter Roll Number: Enter Address: Enter DOB:
+Inserting : 2016MMA02
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 1
+
+
+
+Input is taken with the help of random input generator function
+Enter Name: Enter Roll Number: Enter Address: Enter DOB:
+Inserting : 2020PCS01
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 2
+
+
+Enter Roll Number to search: 2020PCS01
+FOUND
+Name: B1S7NLt2nQ
+Roll Number: 2020PCS01
+Address: SL3XByImciQTqVa
+DOB: AUnJvU
+
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 2
+
+
+Enter Roll Number to search: 231
+NOT FOUND
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 2
+
+
+Enter Roll Number to search: 23423
+NOT FOUND
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 2
+
+
+Enter Roll Number to search: 23423
+NOT FOUND
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 3
+
+
+Enter Roll Number to delete: 213
+NOT FOUND
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 1
+
+
+
+Input is taken with the help of random input generator function
+Enter Name: Enter Roll Number: Enter Address: Enter DOB:
+Inserting : 2019PBA06
+
+
+
+                                                --MENU--
+
+        1. Insert
+        2. Search
+        3. Delete
+        Else Analysis and exit
+
+        Enter: 1
+
+
+
+Input is taken with the help of random input generator function
+Enter Name: Enter Roll Number: Enter Address: Enter DOB:
+Inserting : 2020MMA05
+TABLE FULL
+TABLE FULL
+Process returned 0 (0x0)   execution time : 32.524 s
+Press any key to continue.
