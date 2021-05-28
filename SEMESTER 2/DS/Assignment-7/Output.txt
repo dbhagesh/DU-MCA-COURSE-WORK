@@ -1,0 +1,467 @@
+
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+1
+
+Enter number of inputs to insert : 100
+
+Enter the range in which inputs should be given : 2000
+
+Inserted : 248
+Inserted : 527
+Inserted : 1381
+Inserted : 1024
+Inserted : 1262
+Inserted : 1335
+Inserted : 1189
+Inserted : 959
+Inserted : 931
+Inserted : 32
+Inserted : 714
+Inserted : 1351
+Inserted : 307
+Inserted : 476
+Inserted : 183
+Inserted : 1603
+Inserted : 410
+Inserted : 1107
+Inserted : 480
+Inserted : 1587
+Inserted : 1340
+Inserted : 842
+Inserted : 1267
+Inserted : 1468
+Inserted : 150
+Inserted : 570
+Inserted : 1051
+Inserted : 288
+Inserted : 1652
+Inserted : 430
+Inserted : 1746
+Inserted : 1984
+Inserted : 1988
+Inserted : 828
+Inserted : 199
+Inserted : 687
+Inserted : 1147
+Inserted : 584
+Inserted : 1521
+Inserted : 1657
+Inserted : 711
+Inserted : 630
+Inserted : 707
+Inserted : 1076
+Inserted : 1493
+Inserted : 207
+Inserted : 1984
+Inserted : 614
+Inserted : 100
+Inserted : 1045
+Inserted : 80
+Inserted : 1511
+Inserted : 1386
+Inserted : 922
+Inserted : 84
+Inserted : 248
+Inserted : 165
+Inserted : 1646
+Inserted : 1286
+Inserted : 1780
+Inserted : 1124
+Inserted : 1320
+Inserted : 805
+Inserted : 1030
+Inserted : 1079
+Inserted : 1911
+Inserted : 496
+Inserted : 603
+Inserted : 676
+Inserted : 1080
+Inserted : 1728
+Inserted : 1578
+Inserted : 444
+Inserted : 1131
+Inserted : 1547
+Inserted : 257
+Inserted : 301
+Inserted : 1266
+Inserted : 774
+Inserted : 817
+Inserted : 345
+Inserted : 1706
+Inserted : 1739
+Inserted : 428
+Inserted : 1111
+Inserted : 781
+Inserted : 1580
+Inserted : 1390
+Inserted : 1577
+Inserted : 774
+Inserted : 22
+Inserted : 1179
+Inserted : 1421
+Inserted : 246
+Inserted : 201
+Inserted : 167
+Inserted : 1656
+Inserted : 167
+Inserted : 1591
+Inserted : 540
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+2
+
+Enter key to search : 540
+
+Found
+
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+2
+
+Enter key to search : 0
+
+Not Found
+
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+2
+
+Enter key to search : 57
+
+Not Found
+
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+2
+
+Enter key to search : 1591
+
+Found
+
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+3
+
+ Enter key to delete : 1591
+
+Deleting Node..
+Successful
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+3
+
+ Enter key to delete : 0
+
+Deleting Node..
+Not Found
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+3
+
+ Enter key to delete : 167
+
+Deleting Node..
+Successful
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+4
+
+Euler Tour Traversal : 248 32 22 32 183 150 100 80 80 84 80 100 100 150 165 165 167 165 150 183 199 199 207 201 207 248 246 248 248 207 199 183 32 248 527 307 288 257 288 301 288 307 476 410 345 410 430 428 430 444 430 410 476 480 480 496 480 476 307 527 1381 1024 959 931 714 570 540 570 687 584 584 630 614 603 614 614 630 676 630 584 687 711 707 711 711 687 570 714 842 828 805 774 774 774 781 774 805 817 805 828 828 842 922 842 714 931 931 959 959 1024 1262 1189 1107 1051 1045 1030 1045 1045 1051 1076 1076 1079 1079 1080 1079 1076 1051 1107 1147 1124 1111 1124 1131 1124 1147 1179 1147 1107 1189 1189 1262 1335 1267 1266 1267 1286 1286 1320 1286 1267 1335 1351 1340 1351 1351 1335 1262 1024 1381 1603 1587 1468 1386 1386 1390 1390 1421 1390 1386 1468 1521 1493 1493 1511 1493 1521 1578 1547 1547 1577 1547 1578 1580 1578 1521 1468 1587 1587 1603 1652 1646 1652 1746 1657 1656 1657 1728 1706 1728 1739 1728 1657 1746 1984 1984 1780 1780 1911 1780 1984 1984 1984 1988 1984 1746 1652 1603 1381 527 248
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+5
+
+Preorder Traversal : 248  32  22  183  150  100  80  84  165  167  199  207  201  248  246  527  307  288  257  301  476  410  345  430  428  444  480  496  1381  1024  959  931  714  570  540  687  584  630  614  603  676  711  707  842  828  805  774  774  781  817  922  1262  1189  1107  1051  1045  1030  1076  1079  1080  1147  1124  1111  1131  1179  1335  1267  1266  1286  1320  1351  1340  1603  1587  1468  1386  1390  1421  1521  1493  1511  1578  1547  1577  1580  1652  1646  1746  1657  1656  1728  1706  1739  1984  1984  1780  1911  1988
+Inorder Traversal : 22  32  80  84  100  150  165  167  183  199  201  207  246  248  248  257  288  301  307  345  410  428  430  444  476  480  496  527  540  570  584  603  614  630  676  687  707  711  714  774  774  781  805  817  828  842  922  931  959  1024  1030  1045  1051  1076  1079  1080  1107  1111  1124  1131  1147  1179  1189  1262  1266  1267  1286  1320  1335  1340  1351  1381  1386  1390  1421  1468  1493  1511  1521  1547  1577  1578  1580  1587  1603  1646  1652  1656  1657  1706  1728  1739  1746  1780  1911  1984  1984  1988
+Postorder Traversal : 22  84  80  100  167  165  150  201  246  248  207  199  183  32  257  301  288  345  428  444  430  410  496  480  476  307  540  603  614  676  630  584  707  711  687  570  774  781  774  817  805  828  922  842  714  931  959  1030  1045  1080  1079  1076  1051  1111  1131  1124  1179  1147  1107  1189  1266  1320  1286  1267  1340  1351  1335  1262  1024  1421  1390  1386  1511  1493  1577  1547  1580  1578  1521  1468  1587  1646  1656  1706  1739  1728  1657  1911  1780  1984  1988  1984  1746  1652  1603  1381  527  248
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+6
+
+Enter key to find Max Value in Subtree : 496
+
+496
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+6
+
+Enter key to find Max Value in Subtree : 32
+
+248
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+6
+
+Enter key to find Max Value in Subtree : 22
+
+22
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+6
+
+Enter key to find Max Value in Subtree : 430
+
+444
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+7
+
+Enter key to find Min Value in Subtree : 430
+
+428
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+8
+
+Enter key to find Predecessor : 430
+
+428
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+9
+
+Enter key to find Successor : 428
+
+430
+
+------BST------
+
+
+1. Insert
+2. Search
+3. Delete
+4. Traversal General
+5. Traversal Specialized
+6. Max
+7. Min
+8. Predecessor
+9. Successor
+ Exit on any other input
+
+0
+
+Exiting ....
+Process returned 0 (0x0)   execution time : 141.550 s
+Press any key to continue.

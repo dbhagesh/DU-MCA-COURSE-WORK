@@ -25,7 +25,7 @@ public class Main {
 
          */
         Scanner sc= new Scanner(System.in);
-        System.out.print("Enter any odd value - ");
+        System.out.print("Enter any value - ");
         int n = sc.nextInt();
         //Right limit
         int r = (n-1)/2;
