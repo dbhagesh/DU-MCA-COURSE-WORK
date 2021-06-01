@@ -1,0 +1,34 @@
+10
+
+STRING IS :
+OUTPUT: TRUE
+a
+STRING IS : a
+OUTPUT: NO
+b
+STRING IS : b
+OUTPUT: NO
+ab
+STRING IS : ab
+OUTPUT: TRUE
+ba
+STRING IS : ba
+OUTPUT: NO
+aabbabaaabbb
+STRING IS : aabbabaaabbb
+OUTPUT: TRUE
+aababb
+STRING IS : aababb
+OUTPUT: TRUE
+aabbb
+STRING IS : aabbb
+OUTPUT: NO
+ababb
+STRING IS : ababb
+OUTPUT: NO
+aba
+STRING IS : aba
+OUTPUT: NO
+
+Process returned 0 (0x0)   execution time : 41.817 s
+Press any key to continue.
