@@ -7,6 +7,30 @@
 2.Delete
 3.Display
 4.Exit
+Enter your input: 2
+
+Tree is Empty
+
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 3
+
+Tree is Empty
+
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
 Enter your input: 1
 
 Enter value to be inserted: 1
@@ -19,10 +43,37 @@ Enter value to be inserted: 1
 2.Delete
 3.Display
 4.Exit
+Enter your input: 3
+
+Balanced AVL Tree:
+
+Root -> 1
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
 Enter your input: 1
 
 Enter value to be inserted: 2
 
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 3
+
+Balanced AVL Tree:
+
+                2
+Root -> 1
 --------------------------
        < AVL Tree >
 
@@ -103,12 +154,25 @@ Enter value to be inserted: 8
 2.Delete
 3.Display
 4.Exit
+Enter your input: 1
+
+Enter value to be inserted: 9
+
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
 Enter your input: 3
 
 Balanced AVL Tree:
 
-                                8
-                        7
+                                9
+                        8
+                                7
                 6
                         5
 Root -> 4
@@ -125,19 +189,8 @@ Root -> 4
 4.Exit
 Enter your input: 2
 
-Enter value to be deleted: 4
-
---------------------------
-       < AVL Tree >
-
---------------------------
-1.Insert
-2.Delete
-3.Display
-4.Exit
-Enter your input: 2
-
-Enter value to be deleted: 7
+Enter value to be deleted: 10
+Element not present
 
 --------------------------
        < AVL Tree >
@@ -151,9 +204,45 @@ Enter your input: 3
 
 Balanced AVL Tree:
 
-                8
-                        6
-Root -> 5
+                                9
+                        8
+                                7
+                6
+                        5
+Root -> 4
+                        3
+                2
+                        1
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 2
+
+Enter value to be deleted: 7
+Deleted Successfully.
+
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 3
+
+Balanced AVL Tree:
+
+                                9
+                        8
+                6
+                        5
+Root -> 4
                         3
                 2
                         1
@@ -168,6 +257,7 @@ Root -> 5
 Enter your input: 2
 
 Enter value to be deleted: 6
+Deleted Successfully.
 
 --------------------------
        < AVL Tree >
@@ -181,6 +271,71 @@ Enter your input: 3
 
 Balanced AVL Tree:
 
+                        9
+                8
+                        5
+Root -> 4
+                        3
+                2
+                        1
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 2
+
+Enter value to be deleted: 6
+Element not present
+
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 3
+
+Balanced AVL Tree:
+
+                        9
+                8
+                        5
+Root -> 4
+                        3
+                2
+                        1
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 2
+
+Enter value to be deleted: 4
+Deleted Successfully.
+
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 3
+
+Balanced AVL Tree:
+
+                        9
                 8
 Root -> 5
                         3
@@ -197,6 +352,7 @@ Root -> 5
 Enter your input: 2
 
 Enter value to be deleted: 2
+Deleted Successfully.
 
 --------------------------
        < AVL Tree >
@@ -210,7 +366,97 @@ Enter your input: 3
 
 Balanced AVL Tree:
 
+                        9
                 8
+Root -> 5
+                3
+                        1
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 1
+
+Enter value to be inserted: 2
+
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 3
+
+Balanced AVL Tree:
+
+                        9
+                8
+Root -> 5
+                        3
+                2
+                        1
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 2
+
+Enter value to be deleted: 8
+Deleted Successfully.
+
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 3
+
+Balanced AVL Tree:
+
+                9
+Root -> 5
+                        3
+                2
+                        1
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 2
+
+Enter value to be deleted: 2
+Deleted Successfully.
+
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 3
+
+Balanced AVL Tree:
+
+                9
 Root -> 5
                 3
                         1
@@ -225,6 +471,20 @@ Root -> 5
 Enter your input: 2
 
 Enter value to be deleted: 3
+Deleted Successfully.
+
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 2
+
+Enter value to be deleted: 9
+Deleted Successfully.
 
 --------------------------
        < AVL Tree >
@@ -238,7 +498,6 @@ Enter your input: 3
 
 Balanced AVL Tree:
 
-                8
 Root -> 5
                 1
 --------------------------
@@ -251,7 +510,21 @@ Root -> 5
 4.Exit
 Enter your input: 2
 
-Enter value to be deleted: 8
+Enter value to be deleted: 1
+Deleted Successfully.
+
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 2
+
+Enter value to be deleted: 5
+Deleted Successfully.
 
 --------------------------
        < AVL Tree >
@@ -263,10 +536,20 @@ Enter value to be deleted: 8
 4.Exit
 Enter your input: 3
 
-Balanced AVL Tree:
+Tree is Empty
 
-Root -> 5
-                1
+--------------------------
+       < AVL Tree >
+
+--------------------------
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your input: 2
+
+Tree is Empty
+
 --------------------------
        < AVL Tree >
 
@@ -278,5 +561,5 @@ Root -> 5
 Enter your input: 4
 
 
-Process returned 1 (0x1)   execution time : 43.440 s
+Process returned 1 (0x1)   execution time : 124.997 s
 Press any key to continue.

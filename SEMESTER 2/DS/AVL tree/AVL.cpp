@@ -24,7 +24,7 @@ public:
 	node *left_right(node *);
 	node *right_left(node *);
 
-	//Balancing 
+	//Balancing
 	node* balance(node *);
 
 	//Insertion
@@ -120,7 +120,7 @@ node *AVL::balance(node *temp)
 
 	//Left subtree
 	if (balalance_factor > 1)
-	{	
+	{
 		//Left subtree
 		if (diff(temp->left) > 0)
 			temp = left_left(temp);
@@ -130,7 +130,7 @@ node *AVL::balance(node *temp)
 	}
 	//Right subtree
 	else if (balalance_factor < -1)
-	{	
+	{
 		//Left subtree
 		if (diff(temp->right) > 0)
 			temp = right_left(temp);
@@ -186,9 +186,9 @@ node* AVL::find_min(node* t) {
 	//If no left node
 	if (t == NULL) return NULL;
 	//If max left
-	else if (t->left == NULL) return t; 
+	else if (t->left == NULL) return t;
 	//Recursive call
-	else return find_min(t->left); 
+	else return find_min(t->left);
 }
 node* AVL:: find_max(node* t) {
 	//If no leaf node
@@ -202,7 +202,10 @@ node* AVL:: find_max(node* t) {
 node* AVL:: remove(node* t, int ele) {
 	node* temp;
 	// Element not present
-	if (t == NULL) return NULL;
+	if (t == NULL){
+        cout<<"Element not present"<<'\n';
+        return NULL;
+	}
 	// In left subtree
 	else if (ele < t->data){
 		t->left = remove(t->left, ele);
@@ -223,9 +226,13 @@ node* AVL:: remove(node* t, int ele) {
 		if (t->left == NULL) t = t->right;
 		else if (t->right == NULL) t = t->left;
 		delete temp;
+		cout<<"Deleted Successfully."<<'\n';
 	}
 
-	if (t == NULL) return t;
+	if (t == NULL){
+
+        return t;
+	}
 	// Balance Check
 	t = balance(t);
 }
@@ -257,9 +264,16 @@ int main()
 			break;
 
 		case 2:
+		    if (root == NULL)
+			{
+				cout << "Tree is Empty" << endl;
+				continue;
+			}
 			cout << "Enter value to be deleted: ";
 			cin >> value;
+
 			root = avl.remove(root, value);
+
 			break;
 
 		case 3:
