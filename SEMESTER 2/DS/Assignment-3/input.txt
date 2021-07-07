@@ -1,0 +1,6 @@
+5
+abc
+aba
+aabaa
+aaaa
+abba

@@ -1,0 +1,5 @@
+Not a palindrome
+Yes, a palindrome.
+Yes, a palindrome.
+Yes, a palindrome.
+Yes, a palindrome.

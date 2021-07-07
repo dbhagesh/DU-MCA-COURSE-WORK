@@ -17,6 +17,7 @@ bool check_palindrome(string s){
 		if(i<s.length()/2) st.push(s[i]);
 		//Comparing rest half string, neglecting the mid element of odd string
 		else {
+			//Checking for the middle element
 			if(!((s.length() & 1) and i==s.length()/2 ))
 				//If element not equal therefore its not a palindrome
 				if(s[i]!=st.pop()) return false;
@@ -28,6 +29,11 @@ bool check_palindrome(string s){
 }
 int main()
 {
+
+	#ifndef ONLINE_JUDGE
+	freopen("input.txt","r",stdin);
+	freopen("output.txt","w",stdout);
+	#endif
 
 	//Number of test cases
 	int t;
