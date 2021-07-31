@@ -1,0 +1,96 @@
+<Library>
+	<book book_id="12" ISBN="3423" available="yes" genre="novel">
+		<Author>rahul</Author>
+		<title>Story</title>
+		<year>1998</year>
+		<Publisher pub_id="123">
+			<name>JK publishers</name>
+		</Publisher>
+		<stored>
+			<floor>1</floor>
+			<slot>12A</slot>
+		</stored>
+	</book>
+	<book book_id="2" ISBN="2345" available="no" genre="comedy">
+		<Author>ruhi</Author>
+		<title>Manga</title>
+		<year>1889</year>
+		<Publisher pub_id="345">
+			<name>MK Gupta</name>
+		</Publisher>
+		<stored>
+			<floor>2</floor>
+			<slot>23A</slot>
+		</stored>
+	</book>
+	<librarian lib_id="99">
+		<libname>
+			<first>Surender</first>
+			<last>Kumar</last>
+		</libname>
+		<DOB>12/04/1990</DOB>
+		<phone>9999999999</phone>
+		<age>31</age>
+	</librarian>
+
+	<librarian lib_id="101">
+		<libname>
+			<first>Ramesh</first>
+			<last>Gupta</last>
+		</libname>
+		<DOB>12/01/1993</DOB>
+		<phone>9989898989</phone>
+		<age>34</age>
+	</librarian>
+
+
+	
+	<student mem_id="125">
+		<studentname>
+			<sfirst>Bhagesh</sfirst>
+			<slast>Dhankher</slast>
+		</studentname>
+		<studentDOB>8/04/1999</studentDOB>
+		<sphone>9865346788</sphone>
+		<address>New Delhi</address>
+
+	</student>
+
+	<student mem_id="213">
+		<studentname>
+			<sfirst>Nidhi</sfirst>
+			<slast>Sangwan</slast>
+		</studentname>
+		<studentDOB>19/01/2021</studentDOB>
+		<sphone>123567383</sphone>
+		<address>Rohtak</address>
+
+	</student>
+
+
+
+	<Authentication>
+		<user id="ramesh" pass="ramesh@123"/>
+		<user id="kumar" pass="kumar@123"/>
+		<user id="rahulsingh" pass="ruhil@345"/>
+	</Authentication>
+
+
+	
+	<paymentdetails>
+		<payment p_id="p123" date="12/03/1990" amount="120" status="paid" />
+		<payment p_id="p124" date="10/04/1998" amount="140" status="not-paid" />
+		<payment p_id="p125" date="04/01/2021" amount="10" status="not-paid" />
+	</paymentdetails>
+
+
+
+	<readingroom>
+		<chair room="12" table="5" status="occupied"/>
+		<chair room="13" table="4" status="empty"/>
+		<chair room="11" table="3" status="occupied"/>
+	</readingroom>
+
+
+
+</Library>

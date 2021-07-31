@@ -1,0 +1,138 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Library (book+,librarian+,student+,Authentication,
+                   paymentdetails,readingroom)>
+<!ATTLIST Library
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT book (Author,title,year,Publisher,stored)>
+<!ATTLIST book
+  xmlns CDATA #FIXED ''
+  ISBN CDATA #REQUIRED
+  available NMTOKEN #REQUIRED
+  book_id CDATA #REQUIRED
+  genre NMTOKEN #REQUIRED>
+
+<!ELEMENT librarian (libname,DOB,phone,age)>
+<!ATTLIST librarian
+  xmlns CDATA #FIXED ''
+  lib_id CDATA #REQUIRED>
+
+<!ELEMENT student (studentname,studentDOB,sphone,address)>
+<!ATTLIST student
+  xmlns CDATA #FIXED ''
+  mem_id CDATA #REQUIRED>
+
+<!ELEMENT Authentication (user)+>
+<!ATTLIST Authentication
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT paymentdetails (payment)+>
+<!ATTLIST paymentdetails
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT readingroom (chair)+>
+<!ATTLIST readingroom
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Author (#PCDATA)>
+<!ATTLIST Author
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT year (#PCDATA)>
+<!ATTLIST year
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Publisher (name)>
+<!ATTLIST Publisher
+  xmlns CDATA #FIXED ''
+  pub_id CDATA #REQUIRED>
+
+<!ELEMENT stored (floor,slot)>
+<!ATTLIST stored
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT libname (first,last)>
+<!ATTLIST libname
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT DOB (#PCDATA)>
+<!ATTLIST DOB
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT age (#PCDATA)>
+<!ATTLIST age
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT studentname (sfirst,slast)>
+<!ATTLIST studentname
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT studentDOB (#PCDATA)>
+<!ATTLIST studentDOB
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sphone (#PCDATA)>
+<!ATTLIST sphone
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT address (#PCDATA)>
+<!ATTLIST address
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT user EMPTY>
+<!ATTLIST user
+  xmlns CDATA #FIXED ''
+  id NMTOKEN #REQUIRED
+  pass CDATA #REQUIRED>
+
+<!ELEMENT payment EMPTY>
+<!ATTLIST payment
+  xmlns CDATA #FIXED ''
+  amount CDATA #REQUIRED
+  date CDATA #REQUIRED
+  p_id NMTOKEN #REQUIRED
+  status NMTOKEN #REQUIRED>
+
+<!ELEMENT chair EMPTY>
+<!ATTLIST chair
+  xmlns CDATA #FIXED ''
+  room CDATA #REQUIRED
+  status NMTOKEN #REQUIRED
+  table CDATA #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT floor (#PCDATA)>
+<!ATTLIST floor
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT slot (#PCDATA)>
+<!ATTLIST slot
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT first (#PCDATA)>
+<!ATTLIST first
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT last (#PCDATA)>
+<!ATTLIST last
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sfirst (#PCDATA)>
+<!ATTLIST sfirst
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT slast (#PCDATA)>
+<!ATTLIST slast
+  xmlns CDATA #FIXED ''>
