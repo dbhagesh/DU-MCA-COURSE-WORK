@@ -1,0 +1,10 @@
+I : a     -> Q1 !! Go to Q1 seeking b
+I : b     -> Q3 !! Go to Q1 seeking a
+Q1 : b    -> Q3 !! Advancing to Q3 from Q1 for seeking b
+Q3 : a    -> Q1 !! Advancing to Q1 from Q3 for seeking a
+Q1 : a    -> FQ2 !! To satisfy ending condition for seeking 'aa'
+Q3 : b    -> FQ4 !! To satisfy ending condition for seeking 'bb'
+FQ2 : b -> Q3 !! To remove 'ab' from accepting 
+FQ2 : a -> FQ2 !! For accepting condition 'aa' at ending
+FQ4 : a -> Q1 !! To remove 'ba' from accepting
+FQ4 : b -> FQ4 !! For accepting condition 'bb' at ending
