@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d1232a-ed3c-4cdf-a577-5b3d8a7563af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Form.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DS/Assignment-3/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../DS/Assignment-3/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEMESTER 2/Student1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEMESTER 2/Student1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SE/tic-tac-toe_modified/tic-tac-toe modified" beforeDir="false" afterPath="$PROJECT_DIR$/../SE/tic-tac-toe_modified/tic-tac-toe modified" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../BOSLER/Backend" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunManager" selected="Application.Pattern">
@@ -58,17 +55,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Pattern" />
@@ -88,6 +74,7 @@
       <workItem from="1625221675144" duration="1773000" />
       <workItem from="1625720873899" duration="3042000" />
       <workItem from="1626935468270" duration="3086000" />
+      <workItem from="1629717245354" duration="268000" />
     </task>
     <servers />
   </component>
