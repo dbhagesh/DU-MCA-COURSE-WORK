@@ -1,0 +1,96 @@
+
+#include<stdio.h>
+#include<stdlib.h>
+
+//full : Number of items in the buffer at a given time
+//empty : Number of empty slots in the buffer
+//s : semaphore which can be only accessed with wait and signal
+int mutex=1,full=0,empty=3,item=0;
+
+
+int wait(int s)
+{
+    s--;
+    return s;
+}
+
+int signal(int s)
+{
+    s++;
+    return s;
+}
+
+void producer()
+{
+    //Blocking buffer for Consumer
+    mutex = wait(mutex);
+    //Increasing filled slots
+    full = signal(full);
+    //Decreasing empty slots
+    empty = wait(empty);
+
+    item++;
+    printf("\nProducer produces the item %d",item);
+
+    //Allowing buffer for consumer
+    mutex=signal(mutex);
+}
+
+void consumer()
+{
+    //Blocking buffer for producer
+    mutex = wait(mutex);
+    //Decreasing filled slots
+    full = wait(full);
+    //Increasing empty slots
+    empty = signal(empty);
+
+    printf("\nConsumer consumes item %d",item);
+    item--;
+    //Allowing buffer for Consumer
+    mutex = signal(mutex);
+}
+
+int main()
+{
+    int choice;
+    int buffer_size;
+    printf("Enter Buffer Size : ");
+    scanf("%d",&buffer_size);
+    empty = buffer_size;
+    printf("\nBuffer Size is %d",empty);
+    
+    printf("\n");
+    printf("\n 1.Producer\n 2.Consumer\n 3.Exit");
+
+    while(1)
+    {
+        printf("\nEnter your choice:");
+        scanf("%d",&choice);
+
+        switch(choice)
+        {
+            case 1:
+                if((mutex==1)&&(empty!=0))
+                    producer();
+                else
+                    printf("Buffer is full. Call Consumer and the let the Producer sleep.");
+                break;
+
+            case 2:
+                if((mutex==1)&&(full!=0))
+                    consumer();
+                else
+                    printf("Buffer is empty. Call Producer and the let the Customer sleep.");
+                break;
+
+            case 3:
+                exit(0);
+                break;
+        }
+    }
+
+    return 0;
+}
+
+
